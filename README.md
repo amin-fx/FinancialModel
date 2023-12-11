@@ -8,6 +8,7 @@ Use Yahoo Finance to gather historical data for the ETF and its underlying asset
 
 **Python Implementation:**
 Write a Python program that:
+
 •	Reads the ETF's historical data from Yahoo Finance.
 •	Based on the ETF's documentation and its investment strategy, simulate the ETF's returns over the given timeframe.
 •	Generate the time series of the ETF's returns.

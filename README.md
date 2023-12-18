@@ -72,3 +72,69 @@ Alongside your code and plots, prepare a brief report discussing your methodolog
   o	A table comparing the Sharpe ratios of the three portfolios above.
   
   o	A conclusion section explaining whether your proposed method works or not, and why.
+
+
+# Cross-Sectional Prediction:
+
+**Objective:** In this problem, you will predict future stock returns using past returns.
+
+**Instructions:**
+
+1. Download [the list of S&P500 stocks](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies) from Wikipedia.
+
+2. Download daily historical stock prices for S&P500 stocks.
+
+3. Calculate the return and forward return for every stock/day.
+
+4. For every stock/day, calcualte the return over prior five trading days (past week return).
+
+5. Sort stocks into 10 bins based on prior week returns.
+
+6. For each bin, form a daily-rebalanced, equally-weighted portfolio and calculate its daily returns.
+
+7. Calculate the average daily return for each portfolio.
+
+8. Form a long-short portfolio of bins 1 and 10.
+
+9. Formally test if the long-short portfolio has positive average returns. Is the average return statistically significant?
+
+
+# Cross-Sectional Prediction with Financial Statements
+
+**Objective:** In this problem, you will learn to use fiancial statements to predict stock returns.
+
+**Instructions:**
+
+1. Download [the list of S&P500 stocks](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies) from Wikipedia.
+
+2. Download daily historical stock prices for S&P500 stocks.
+
+3. Keep the last observation for each stock/month.
+
+4. Calculate monthly returns and forward returns.
+
+5. Restrict the observations to the time period 2010/1 - 2022/12.
+
+6. Read in the file "consolidated_quarterly_balance_sheets.csv". This file contains balance sheets filed to EDGAR.
+
+7. Calculate the current ratio for each observation. The current ratio is defined as
+
+$$
+Current\ Ratio = \frac{Current\ Assets}{Current\ Liabilities}.
+$$
+
+A current ratio larger than one means the firm has enough liquid assets to cover its short term liabilities.
+
+8. Merge the balance sheet data with the monthly stock prices.
+
+9. Fill in the missing observations of the current ratio with its last known value for the same firm.
+
+10. Every month, sort the stocks into five bins based on their current ratios. Form an equally-weighted portfolio for each bin.
+
+11. Calculate summary statistics of returns for each portfolio.
+
+12. Form a long-short portfolio based on current ratio and calculate its monthly returns.
+
+13. Formally test if the long-short portfolio yilds positive returns on average.
+
+For more information about current ratios, refer to [Investopedia](https://www.investopedia.com/terms/c/currentratio.asp). I have compiled the balance sheet data from [this Kaggle page](https://www.kaggle.com/datasets/finnhub/reported-financials).

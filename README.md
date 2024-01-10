@@ -138,3 +138,45 @@ A current ratio larger than one means the firm has enough liquid assets to cover
 13. Formally test if the long-short portfolio yilds positive returns on average.
 
 For more information about current ratios, refer to [Investopedia](https://www.investopedia.com/terms/c/currentratio.asp). I have compiled the balance sheet data from [this Kaggle page](https://www.kaggle.com/datasets/finnhub/reported-financials).
+
+# Loan Default Prediction Analysis
+
+**1. Introduction:**
+
+The aim of this project is to develop a loan default prediction model by analyzing historical data and identifying key factors that contribute to loan defaults. The model will enable lenders to assess the risk associated with potential borrowers and make more informed lending decisions.
+
+**2. Objective:**
+
+The primary objective of this project is to accurately predict loan defaults by analyzing various factors that influence borrower behavior. By understanding the types of defaults and reasons behind loan defaults, this project will provide valuable insights into risk management and help lenders minimize potential losses.
+
+**3. Scope:**
+
+The project will utilize historical loan data, including borrower information, loan characteristics, and repayment behavior, to build a predictive model. The analysis will focus on identifying patterns, trends, and risk factors associated with loan defaults. The project will also explore the impact of different loan types and borrower profiles on default rates.
+
+**4. Methodology:**
+
+The project will follow the following steps:
+
+a. Data Collection
+
+b. Data Preprocessing
+
+c. Feature Engineering
+
+d. Exploratory Data Analysis
+
+e. Model Development
+
+f. Model Evaluation and Optimization
+
+g. Results and Recommendations
+
+**5. Deliverables:**
+
+The project will deliver the following:
+
+- A comprehensive analysis of loan default trends, types, and reasons.
+ 
+- A loan default prediction model with documented methodology and performance evaluation.
+ 
+- Visualizations, reports, codes, and presentations summarizing the findings and recommendations for lenders.
